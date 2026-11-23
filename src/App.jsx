@@ -823,7 +823,7 @@ export default function App() {
                   margin:"15px auto"
                 }}>
                   <img
-                    src="/qr-breb.png"
+                    src={`${import.meta.env.BASE_URL}qr-breb.png`}
                     alt="QR de pago Nu Bre-B"
                     style={{
                       width:210,
